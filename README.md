@@ -4,3 +4,10 @@
 ![](image/admin1.jpg)
 
 ![](image/admin2.jpg)
+
+### 二、快捷使用
+    PasswordView passwordView = new PasswordView(this);
+            BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+            bottomSheetDialog.setContentView(passwordView);
+            bottomSheetDialog.setCanceledOnTouchOutside(false);
+            bottomSheetDialog.show();
